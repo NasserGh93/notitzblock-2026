@@ -1,11 +1,15 @@
 // save global
 // i need notes
 
-let notes = ['banana', 'Orange'];
+let notes = ['banana', 'Orange', 'rasen'];
 
 function renderNotes() {
     let contentRef = document.getElementById('content')
-    contentRef.innerHTML = notes;
+
+    for (let indexNote = 0; indexNote < notes.length; indexNote++) {
+        const note = array[indexNote]
+        contentRef.innerHTML = " " + note
+    }
 }
 // where are the notes to see
 //->when the notes
